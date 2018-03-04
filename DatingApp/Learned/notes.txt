@@ -1,0 +1,17 @@
+Change to the appropriate environment by typing -  $env:ASPNETCORE_ENVIRONMENT="Development"
+
+install watcher package in the csproj file -  <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.0.0" />
+watch changes by typing - dotnet watch run
+
+
+#databases
+add migration - dotnet ef migrations add migrationlabel
+update db  - dotnet ef database update
+
+angular
+npm --version
+node --version
+install angular cli - npm install -g @angular/cli
+create a new angular application - ng new DatingApp.SPA
+Run web server - ng serve
+npm install bootstrap@3.3.7 font-awesome --save
